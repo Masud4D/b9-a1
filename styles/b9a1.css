@@ -142,6 +142,8 @@ body{
     position:static;
     
     
+    
+    
  }
   
    
@@ -547,12 +549,13 @@ body{
 .footer-first-list li a{
     font-size: 20px;
     font-weight: 400;
-    color: #FFFFFF;
+    color:#FFFFFF;
     padding-left: 15px;
     text-decoration: none;
 }
 .icon-section{
     padding: 45px 0px;
+    
 }
 .icon-section ul{
     display: flex;
@@ -576,7 +579,7 @@ hr{
     padding-top: 25px;
 }
 .copy-right small{
-     color: #FFFFFF;
+     color:#FFFFFF;
     font-size: 20px;
     text-align: center;
 }

@@ -14,12 +14,13 @@ body{
 }
 .header{
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.8)),url("./images/Banner\ Image.png");
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.8)),url("../images/Banner\ Image.png");
     height:600px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     padding-bottom: 100px;
+
 
 }
 .banner-title{
@@ -29,16 +30,16 @@ body{
     font-size: 32px;
     text-align: center;
     font-weight: 400;
-    color: #FFFFFF;
+    color: aquamarine;
     padding-top: 200px;
-    
+   
 }
 .banner-title h1{
     font-size: 72px;
     font-weight: 700;
     line-height: 95px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: antiquewhite;
     text-align: center;
    
 }
@@ -46,8 +47,9 @@ body{
     width: 100%;
    /*background-color:#ffe5e5;*/
 
+
  
-  
+ 
 }
 .category-content{
     margin: auto;
@@ -68,7 +70,7 @@ body{
     text-align: center;
     padding-top: 45px;
     color: #FF0000;
-    
+   
 }
 .category-content h3{
     font-size: 48px;
@@ -76,7 +78,8 @@ body{
     text-align: center;
     padding-top: 25px;
     color: #070211;
-    
+   
+
 
 }
 .newyear{
@@ -89,14 +92,20 @@ body{
 /**midnight-selection**/
 .midnight-selection{
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.2)),url("./images/Vectorrr.png");
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.2)),url("../images/Vectorrr.png");
     height: 600px;
     background-repeat: no-repeat;
     background-position: center;
+    display: flex;
+
+
+   
 }
  .mid-content {
     padding-top: 100px;
     padding-left: 125px;
+
+
  }
  .mid-content h1{
     font-size: 64px;
@@ -120,10 +129,19 @@ body{
     padding-left: 25px;
     color: #FFFFFF;
     text-decoration: none;
-
-
-
  }
+ 
+  .midnight-selection img{
+
+
+
+
+  }  
+   
+
+
+
+
 /**midnight-selection**/
 /**park-selection**/
 .park-section{
@@ -143,6 +161,7 @@ body{
     line-height: 36px;
     color: #070211;
 
+
 }
 .park-content span{
     text-align: center;
@@ -150,6 +169,7 @@ body{
     font-weight: 600;
     line-height: 60px;
     color: #FF0000;
+
 
 }
 .park-content button{
@@ -167,6 +187,7 @@ body{
     font-weight: 700;
 }
 /**Offer section**/
+
 
 .offer-content{
     display: flex;
@@ -193,8 +214,10 @@ body{
     color: #070211;
     text-align: left;
 
+
 }
 .offer-2 {
+
 
 }
 .Ellipse{
@@ -206,8 +229,10 @@ body{
     padding: 15px;
 }
 
+
 .offer-3{
     padding-right: 0;
+
 
 }
 .offer-3 h3{
@@ -216,6 +241,7 @@ body{
     font-weight: bold;
     color: #FF0000;
     padding-bottom: 15px;
+
 
 }
 .offer-3 p{
@@ -228,6 +254,7 @@ body{
     width: 140px;
     height: 140px;
 
+
 }
 /**holiday-section**/
 .holiday-section{
@@ -236,8 +263,8 @@ body{
     /*background-image: url("images/Rectangle\ 2.png");
     background-repeat: no-repeat;
     background-position: bottom center;*/
-    
-    
+   
+   
 }
 .holiday-content{
     align-items: center;
@@ -258,7 +285,8 @@ body{
     font-size: 72px;
     color: #FF0000;
     font-weight: bold;
-    padding-top: 15px;
+    padding-top: 16px;
+
 
 }
 .holiday-content  h1 .span{
@@ -266,6 +294,7 @@ body{
     font-size: 72px;
     color: #070211;
     font-weight: bold;
+
 
 }
 .holiday-content p{
@@ -278,30 +307,34 @@ body{
     padding-top: 15px;
     padding: 0px 100px;
     line-height: 36px;
-    
+   
 }
 .box-content{
-  
+   
+ 
+
 
 }
 .holiday-box{
 
+
     margin-top: 45px;
     position: relative;
-  
+ 
    
 }
 .holibox{
-    
+   
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top:20px ;
 
+
 }
 .holiday-boxleft{
     position: relative;
-    
+   
 }
 .holiday-boxleft img{
     position: absolute;
@@ -316,16 +349,18 @@ body{
     position: relative;
     padding: 0;
     margin: 0;
-    
+   
+
 
 }
-.holidaybox-right img{   
+.holidaybox-right img{  
     width: 429px;
     height: 440px;
     margin-top:55px ;
    
-    
-    
+   
+   
+
 
 }
 .discount-photo{
@@ -334,7 +369,7 @@ body{
     height: 200px;
     border-radius: 50%;
     left: -50%;
-    
+   
 }
 .backcolor{
     padding: 0;
@@ -348,7 +383,8 @@ body{
 /**card-section start**/
 .card-section{
     padding: 45px 0px;
-  
+ 
+
 
 }
 .card-content span{
@@ -358,6 +394,7 @@ body{
     font-weight: 400;
    
 
+
 }
 .card-content h1{
     font-size: 48px;
@@ -366,6 +403,7 @@ body{
     font-weight: bold;
     padding-top: 15px;
 
+
 }
 .card-content p{
     width: 896px;
@@ -373,6 +411,7 @@ body{
     text-align: left;
     color: #070211;
     padding-top: 25px;
+
 
 }
 .card-box{
@@ -390,7 +429,7 @@ body{
 /**card-section end**/
 /**section mail-section start code**/
 .main-section{
-    
+   
     align-items: center;
     margin-top: 45px 0px;
 }
@@ -453,6 +492,7 @@ body{
     border: 0;
 }
 
+
 /** section mail-section end***/
 .footer{
     background-color: #070211;
@@ -471,17 +511,20 @@ body{
     font-weight: 400px;
     line-height: 36px;
 
+
 }
 .footer-first-list{
     display: block;
     align-items: center;
     margin-right: 200px;
 
+
 }
 .footer-first-list li{
     list-style: none;
     margin-top: 5px;
  
+
 
 }
 .footer-first-list li img{
@@ -522,7 +565,8 @@ hr{
     padding-top: 25px;
 }
 .copy-right small{
-    color: #FFFFFF;
+     color: #FFFFFF;
     font-size: 20px;
     text-align: center;
 }
+

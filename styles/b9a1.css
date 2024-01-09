@@ -97,6 +97,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
+    background: 
 
 
    
@@ -113,6 +114,7 @@ body{
     color: #FFFFFF;
     text-align: left;
     line-height: 95px;
+    
  }
  .mid-content p{
     width: 697px;
@@ -121,6 +123,7 @@ body{
     text-align: left;
     line-height: 36px;
     padding-bottom: 30px;
+    
  }
  .mid-content a{
  
@@ -129,14 +132,16 @@ body{
     padding-left: 25px;
     color: #FFFFFF;
     text-decoration: none;
+    
  }
- 
-  .midnight-selection img{
-
-
-
-
-  }  
+ .img{
+    height: 486px;
+    padding-left: 73px;
+    padding-top: 80px;
+    position:static;
+    
+ }
+  
    
 
 
@@ -178,7 +183,7 @@ body{
     width: 167px;
     height: 56px;
     background-color: #FF0000;
-    color: #FFFFFF;
+    color:#ffe5e5;
     align-items: center;
     margin: 10px auto;
     border: 0;
@@ -329,6 +334,7 @@ body{
     justify-content: space-between;
     align-items: center;
     margin-top:20px ;
+    
 
 
 }
